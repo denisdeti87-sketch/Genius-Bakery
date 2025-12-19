@@ -1,0 +1,55 @@
+:root {
+  --Color-brand: #819b57;
+  --Color-brand-dark: #465929;
+  --Color-primary-dark: #31261a;
+  --Color-primary-light: #faf4ea;
+}
+
+/* Base */
+
+ul {
+  list-style-type: none;
+}
+
+/* Buttons */
+.button {
+  color: var(--Color-primary-light);
+  background-color: var(--Color-brand);
+  border: 2px solid var(--Color-brand);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #465929;
+  background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--Color-primary-light);
+}
+
+.link:hover {
+  color: var(--Color-brand);
+}
+
+/* Hero-section */
+.hero-title {
+  color: var(--Color-primary-light);
+  font-family: 'Rockwell', sans-serif;
+}
+
+.hero-title .accent {
+  color: var(--Color-brand);
+}
+
+/* Adventages-section */
+.adventages-list {
+  color: var(--Color-primary-light);
+  background-color: var(--Color-brand);
+}
+
+.section-title .accent {
+  color: var(--Color-brand-dark);
+}
